@@ -48,3 +48,8 @@ def getMember(request):
 
     member = get_object_or_404(RoomMember, uid=uid, room_name=room_name)
     return JsonResponse({'name': member.name}, safe=False)
+
+
+
+# hyyy shashi
+
